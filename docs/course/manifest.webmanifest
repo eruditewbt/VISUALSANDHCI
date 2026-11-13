@@ -1,0 +1,10 @@
+{
+  "name": "VISUALSANDHCI Learning Studio",
+  "short_name": "VISUALSANDHCI",
+  "description": "Visual interface design and frontend learning studio",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101114",
+  "theme_color": "#101114"
+}
