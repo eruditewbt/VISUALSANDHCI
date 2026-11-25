@@ -58,7 +58,7 @@
     "name": "three-vendor"
   },
   "index.html": {
-    "file": "assets/index-Bs1T79-D.js",
+    "file": "assets/index-ci6-OEgG.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -71,7 +71,7 @@
     ]
   },
   "src/ProtectedApp.tsx": {
-    "file": "assets/ProtectedApp-BopMchWg.js",
+    "file": "assets/ProtectedApp-DwgDSnvw.js",
     "name": "ProtectedApp",
     "src": "src/ProtectedApp.tsx",
     "isDynamicEntry": true,
@@ -94,7 +94,7 @@
     ]
   },
   "src/features/connectwbt/ConnectWbtPanel.tsx": {
-    "file": "assets/ConnectWbtPanel-uM3dnpSv.js",
+    "file": "assets/ConnectWbtPanel-BM3vEKaF.js",
     "name": "ConnectWbtPanel",
     "src": "src/features/connectwbt/ConnectWbtPanel.tsx",
     "isDynamicEntry": true,
