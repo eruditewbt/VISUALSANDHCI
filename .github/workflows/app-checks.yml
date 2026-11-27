@@ -1,0 +1,56 @@
+name: App checks
+
+on:
+  push:
+    paths:
+      - "app/**"
+      - ".github/workflows/app-checks.yml"
+  pull_request:
+    paths:
+      - "app/**"
+      - ".github/workflows/app-checks.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24.15
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Run test suite
+        run: npm test -- --run --pool=threads --maxWorkers=1
+      - name: Type-check and build production app
+        run: npm run build
+
+  react-starter:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app/react-starter
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24.15
+          cache: npm
+          cache-dependency-path: app/react-starter/package-lock.json
+      - name: Install locked React starter dependencies
+        run: npm ci
+      - name: Type-check and build React starter
+        run: npm run build

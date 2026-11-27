@@ -25,6 +25,18 @@ This repo exists so visual thinkers, designers, frontend beginners, and product-
 4. Join the community and post your intent
 5. Move into a live product or hackathon lane
 
+## Frontend Learning Workbench
+
+The VISUALSANDHCI learning app is an interactive, visual-first course: learners explore HCI and visual literacy, build HTML/CSS/JavaScript examples in an isolated workbench, compare design approaches, and continue into a separate React starter.
+
+- Implementation roadmap: [plan.md](plan.md)
+- Application and local setup notes: [app/README.md](app/README.md)
+- Release verification checklist: [app/RELEASE_CHECKLIST.md](app/RELEASE_CHECKLIST.md)
+- Separate React project starter: [app/react-starter/README.md](app/react-starter/README.md)
+- The app opens on the visual learning path; the standalone editor is available from Workbench.
+
+The new app is intentionally separate from the existing static entry pages in `docs/` until the learning flow and deployment are validated.
+
 ## Ecosystem Links
 
 - Tech Community by EruditeWBT: https://github.com/eruditewbt/Tech_Community_by_EruditeWBT

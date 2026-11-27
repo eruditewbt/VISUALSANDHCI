@@ -1,56 +1,17 @@
 {
-  "_draftStorage-Cv65Bpwb.js": {
-    "file": "assets/draftStorage-Cv65Bpwb.js",
+  "_draftStorage-D7seFW9R.js": {
+    "file": "assets/draftStorage-D7seFW9R.js",
     "name": "draftStorage"
   },
-  "_editor-core-Bcv2oB0T.js": {
-    "file": "assets/editor-core-Bcv2oB0T.js",
-    "name": "editor-core"
-  },
-  "_editor-support-C1Gu2MSk.js": {
-    "file": "assets/editor-support-C1Gu2MSk.js",
-    "name": "editor-support",
-    "imports": [
-      "_editor-support-DBaWvDpi.js",
-      "_editor-core-Bcv2oB0T.js",
-      "_editor-support-Cs5PBpMl.js"
-    ]
-  },
-  "_editor-support-Cs5PBpMl.js": {
-    "file": "assets/editor-support-Cs5PBpMl.js",
-    "name": "editor-support",
-    "imports": [
-      "_editor-core-Bcv2oB0T.js"
-    ]
-  },
-  "_editor-support-DBaWvDpi.js": {
-    "file": "assets/editor-support-DBaWvDpi.js",
-    "name": "editor-support",
-    "imports": [
-      "_editor-core-Bcv2oB0T.js",
-      "_editor-support-Cs5PBpMl.js"
-    ]
-  },
-  "_editor-support-DKygf5zT.js": {
-    "file": "assets/editor-support-DKygf5zT.js",
-    "name": "editor-support",
-    "imports": [
-      "_rolldown-runtime-XKyaHtl9.js",
-      "_editor-support-DBaWvDpi.js",
-      "_react-vendor-KPuNr9iS.js",
-      "_editor-core-Bcv2oB0T.js",
-      "_editor-support-C1Gu2MSk.js"
-    ]
-  },
-  "_react-vendor-KPuNr9iS.js": {
-    "file": "assets/react-vendor-KPuNr9iS.js",
+  "_react-vendor-zSn6fQB5.js": {
+    "file": "assets/react-vendor-zSn6fQB5.js",
     "name": "react-vendor",
     "imports": [
-      "_rolldown-runtime-XKyaHtl9.js"
+      "_rolldown-runtime-COiEfhsA.js"
     ]
   },
-  "_rolldown-runtime-XKyaHtl9.js": {
-    "file": "assets/rolldown-runtime-XKyaHtl9.js",
+  "_rolldown-runtime-COiEfhsA.js": {
+    "file": "assets/rolldown-runtime-COiEfhsA.js",
     "name": "rolldown-runtime"
   },
   "_three-vendor-ltrNqaue.js": {
@@ -58,66 +19,76 @@
     "name": "three-vendor"
   },
   "index.html": {
-    "file": "assets/index-ci6-OEgG.js",
+    "file": "assets/index-Wr1_38WJ.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_rolldown-runtime-XKyaHtl9.js",
-      "_react-vendor-KPuNr9iS.js"
+      "_rolldown-runtime-COiEfhsA.js",
+      "_react-vendor-zSn6fQB5.js"
     ],
     "dynamicImports": [
       "src/ProtectedApp.tsx"
     ]
   },
   "src/ProtectedApp.tsx": {
-    "file": "assets/ProtectedApp-DwgDSnvw.js",
+    "file": "assets/ProtectedApp-BvA9Etgm.js",
     "name": "ProtectedApp",
     "src": "src/ProtectedApp.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-XKyaHtl9.js",
-      "_react-vendor-KPuNr9iS.js",
-      "index.html",
-      "_editor-support-DKygf5zT.js",
-      "_editor-support-C1Gu2MSk.js",
-      "_editor-support-DBaWvDpi.js",
-      "_editor-core-Bcv2oB0T.js",
-      "_three-vendor-ltrNqaue.js"
+      "_rolldown-runtime-COiEfhsA.js",
+      "_react-vendor-zSn6fQB5.js",
+      "index.html"
     ],
     "dynamicImports": [
-      "src/features/playground/Workbench.tsx",
-      "src/features/connectwbt/ConnectWbtPanel.tsx"
+      "src/features/connectwbt/ConnectWbtPanel.tsx",
+      "src/features/playground/WorkbenchHub.tsx"
     ],
     "css": [
-      "assets/ProtectedApp-Mct4-I2s.css"
+      "assets/ProtectedApp-WJm3QJGE.css"
     ]
   },
   "src/features/connectwbt/ConnectWbtPanel.tsx": {
-    "file": "assets/ConnectWbtPanel-BM3vEKaF.js",
+    "file": "assets/ConnectWbtPanel-DtRm2JoV.js",
     "name": "ConnectWbtPanel",
     "src": "src/features/connectwbt/ConnectWbtPanel.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-XKyaHtl9.js",
-      "_react-vendor-KPuNr9iS.js",
-      "_draftStorage-Cv65Bpwb.js",
+      "_rolldown-runtime-COiEfhsA.js",
+      "_react-vendor-zSn6fQB5.js",
+      "_draftStorage-D7seFW9R.js",
       "src/ProtectedApp.tsx"
     ]
   },
   "src/features/playground/Workbench.tsx": {
-    "file": "assets/Workbench-Bt0v1de6.js",
+    "file": "assets/Workbench-BghHoiGY.js",
     "name": "Workbench",
     "src": "src/features/playground/Workbench.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-XKyaHtl9.js",
-      "_react-vendor-KPuNr9iS.js",
-      "_editor-support-DKygf5zT.js",
-      "_editor-support-C1Gu2MSk.js",
-      "_editor-support-DBaWvDpi.js",
-      "_editor-core-Bcv2oB0T.js",
-      "_draftStorage-Cv65Bpwb.js"
+      "_rolldown-runtime-COiEfhsA.js",
+      "_react-vendor-zSn6fQB5.js",
+      "src/features/playground/WorkbenchHub.tsx",
+      "_draftStorage-D7seFW9R.js"
+    ]
+  },
+  "src/features/playground/WorkbenchHub.tsx": {
+    "file": "assets/WorkbenchHub-Dc1SRpGZ.js",
+    "name": "WorkbenchHub",
+    "src": "src/features/playground/WorkbenchHub.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-COiEfhsA.js",
+      "_react-vendor-zSn6fQB5.js",
+      "index.html",
+      "_three-vendor-ltrNqaue.js"
+    ],
+    "dynamicImports": [
+      "src/features/playground/Workbench.tsx"
+    ],
+    "css": [
+      "assets/WorkbenchHub-DIISgdDe.css"
     ]
   }
 }
