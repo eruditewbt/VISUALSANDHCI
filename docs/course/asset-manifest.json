@@ -19,7 +19,7 @@
     "name": "three-vendor"
   },
   "index.html": {
-    "file": "assets/index-Wr1_38WJ.js",
+    "file": "assets/index-8HdmvR7-.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -32,7 +32,7 @@
     ]
   },
   "src/ProtectedApp.tsx": {
-    "file": "assets/ProtectedApp-BvA9Etgm.js",
+    "file": "assets/ProtectedApp-B3JW004t.js",
     "name": "ProtectedApp",
     "src": "src/ProtectedApp.tsx",
     "isDynamicEntry": true,
@@ -50,7 +50,7 @@
     ]
   },
   "src/features/connectwbt/ConnectWbtPanel.tsx": {
-    "file": "assets/ConnectWbtPanel-DtRm2JoV.js",
+    "file": "assets/ConnectWbtPanel-CKbKpNX2.js",
     "name": "ConnectWbtPanel",
     "src": "src/features/connectwbt/ConnectWbtPanel.tsx",
     "isDynamicEntry": true,
@@ -62,7 +62,7 @@
     ]
   },
   "src/features/playground/Workbench.tsx": {
-    "file": "assets/Workbench-BghHoiGY.js",
+    "file": "assets/Workbench-CpghLxyg.js",
     "name": "Workbench",
     "src": "src/features/playground/Workbench.tsx",
     "isDynamicEntry": true,
@@ -74,7 +74,7 @@
     ]
   },
   "src/features/playground/WorkbenchHub.tsx": {
-    "file": "assets/WorkbenchHub-Dc1SRpGZ.js",
+    "file": "assets/WorkbenchHub-DTt_rJzC.js",
     "name": "WorkbenchHub",
     "src": "src/features/playground/WorkbenchHub.tsx",
     "isDynamicEntry": true,
@@ -88,7 +88,7 @@
       "src/features/playground/Workbench.tsx"
     ],
     "css": [
-      "assets/WorkbenchHub-DIISgdDe.css"
+      "assets/WorkbenchHub-BNR2oJIK.css"
     ]
   }
 }
